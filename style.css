@@ -1,0 +1,163 @@
+main {
+  position: center;
+  width: 900px;
+  color: #525861;
+}
+
+nav {
+  width: 900px;
+  background: #3c030c;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  background: #3c030c;
+  color: #939faf;
+  border: none;
+  margin: 20px;
+  height: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+header {
+  display:flex;
+  position: relative;
+  width: 40%;
+  z-index: -1;
+}
+
+.introduction {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+   margin-top: 70px;
+}
+
+.skills {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+figure {
+  overflow: hidden;
+  margin:0;
+  height: 500px;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0px;
+  display: block;
+}  
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.name {
+  color: #3c030c;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: 'Righteous', cursive;
+  font-size: 90px;
+  padding: 0px;
+  margin: -40px 50px 20px;
+  line-height: 1;
+}
+
+.subtitle {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px 60px 0px;
+  line-height: 3;
+}
+
+.together {
+  display: flex;
+  margin-top: 50px;
+}
+
+.quote::before {
+  content: '“';
+  font-family: 'Lobster', cursive;
+  font-size: 150px;
+  position: absolute;
+  top: -60px;
+  left: 0px;
+ 
+}
+
+.quote {
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  padding: 50px;
+  margin-bottom: 30px;
+  color: #3c030c;
+  background: #939faf;
+  position: relative;
+  display: flex;
+  width: 30%;
+  height:100%;
+  z-index: -1;
+}
+
+section {
+  width: 60%;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h2 { 
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.subheader {
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: square;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
